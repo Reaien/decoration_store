@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor-header {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.color-titulo{
+    color: brown;
+}
+
+.contenedor-navbar{
+    border-top: 1px solid rgb(129, 129, 129);
+}
+
+.contenedor-navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-enlaces{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+
+.banner-image{
+    height: 550px;
+    background-image: url(/img/principal.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.seccion-categorias{
+    margin: 100px 0;
+}
+
+.titulo-categorias{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-categorias{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    margin: 0 10px;
+}
+
+.card-categorias p{
+    text-align: center;
+}
+
+
+.titulo-nosotros{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagen-nosotros{
+    height: 300px;
+    background-image: url(/img/producto2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-nosotros{
+    background-color: rgb(192, 168, 137);
+    font-size: 22px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.texto-nosotros p{
+    margin: 0 20px;
+}
+
+.seccion-productos{
+    margin: 80px 0;
+}
+
+.titulo-productos{
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-1{
+    display: grid;
+    width: 1200px;
+    height: 400px;
+    
+}
+
+.card-1:nth-child(1){
+    grid-template-columns: 3fr 1fr;
+}
+
+
+.producto-card1{
+    width: 100%;
+    background-image: url(/img/producto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.producto-descripcion{
+    background-color: rgb(134, 97, 97);
+    display: grid;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.producto-boton{
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
